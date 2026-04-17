@@ -40,7 +40,8 @@ body {
 }
 
 .hero p {
-  color: #7fdfff;
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 .security-features {
