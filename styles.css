@@ -26,8 +26,6 @@ body {
 
 /* HERO */
 .hero {
-      background: url(images/background-wave.jpg);background-size: cover; background-position: top; background-repeat: no-repeat;
-
   height: 100vh;
   /* background: linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.9)),
               url('images/background-wave.jpg') center/cover no-repeat; */
@@ -46,10 +44,10 @@ body {
 }
 
 .security-features {
-  position: relative;
+  background: url(images/background-wave.jpg);background-size: cover; background-position: top; background-repeat: no-repeat;
 }
 
-.security-features::before {
+/* .security-features::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -61,7 +59,7 @@ body {
 .security-features > * {
   position: relative;
   z-index: 1;
-}
+} */
 
 /* SECTIONS */
 .section {
