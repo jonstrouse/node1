@@ -76,7 +76,7 @@ body {
   margin: auto;
 }
 .section h2 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .split {
@@ -152,13 +152,14 @@ body {
 
 }
 .footer {
-    /* background: url(images/footer.png);
-    background-position: top; */
+    background: url(images/footer.png);
+    background-position: 100%;
+    background-position: bottom;
     /* height: 50vh; */
   
-    padding: 100px 30px 100px;
-    background: #549FC3;
-    background: linear-gradient(180deg, rgba(84, 159, 195, 0) 0%, rgba(84, 159, 195, 0.57) 20%, rgba(58, 96, 153, 1) 100%);
+    padding: 300px 30px 100px;
+    /* background: #549FC3;
+    background: linear-gradient(180deg, rgba(84, 159, 195, 0) 0%, rgba(84, 159, 195, 0.57) 20%, rgba(58, 96, 153, 1) 100%); */
 }
 .footer a {
     text-decoration: none;
@@ -167,7 +168,8 @@ body {
     max-width: 1100px;
     margin: auto;
     display: flex; flex-direction: row;
-    justify-content: space-between; align-items: center;;
+    justify-content: space-between; align-items: center;
+    filter: drop-shadow(2px 2px 5px #222);
 }
 .footer .logo {
     width: 20%;
@@ -175,11 +177,15 @@ body {
 .footer img {
     max-width: 100%;
 }
-
+.footer nav {
+        background-color: #000;
+        padding: 10px 20px 10px 0;
+}
 .footer nav a {
+
    width: 80%;
   margin: 0 0 0 20px;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px; font-weight: 500;
   flex-direction: row;;
 }
